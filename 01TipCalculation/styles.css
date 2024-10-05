@@ -1,0 +1,59 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #3b3333;
+    display: flex;
+    justify-content: center;/*This property is used to align flex items along the main axis of the flex container (which can be horizontal or vertical, depending on the flex-direction property).*/
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: rgb(167, 158, 158);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;/*centers the inline elements within the parent block level element(does not center the block level elements)*/
+    width: 300px;
+   
+}
+
+
+.input-class {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+h2 {
+    margin-top: 20px;
+    font-weight: normal;
+}
+
+#tip-amount {
+    font-weight: bold;
+}
