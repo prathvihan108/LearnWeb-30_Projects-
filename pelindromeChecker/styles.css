@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ensures the parent fills the viewport height */
+    margin: 0; 
+  }
+.container{
+    height: fit-content;
+    width: fit-content;
+    margin: auto auto;
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgb(192, 192, 192);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.element{
+    border-radius: 5px;
+    
+
+}
